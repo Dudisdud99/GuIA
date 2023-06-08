@@ -1,0 +1,58 @@
+div#img{
+    display: flex;
+}
+
+div#img{
+    background: linear-gradient(to left, #008CFF, #00FF8C);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+img#logo{
+    width: 8rem;
+    background-color: white;
+    border: 0.001 inherit ;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to left, #008CFF, #00FF8C);
+    margin: 1rem;
+    padding: 0.2rem;
+    
+}
+
+img.icone{
+    width: 100%;
+}
+
+div#escrever{
+    position: relative;
+}
+
+textarea{
+    /*visibility: hidden;*/
+    width: 20rem;
+    /*position: absolute;*/
+}
+
+button:hover{
+    transform: scale(95%);
+}
+
+#escrever:focus+textarea,
+textarea:hover{
+    visibility: visible;
+}

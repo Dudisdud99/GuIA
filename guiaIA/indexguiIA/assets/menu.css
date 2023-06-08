@@ -1,0 +1,110 @@
+
+
+div#form{
+    display: flex;
+    justify-content: center;
+}
+
+div#img{
+    display: flex;
+}
+
+div#img{
+    background: linear-gradient(to left, #008CFF, #00FF8C);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+img#main{
+    width: 8rem;
+    background-color: white;
+    border: 0.001 inherit ;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+div#usuario{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 8rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    font-size: larger;
+}
+
+div#borda{
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 10rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center; 
+    font-size: larger;
+
+}
+
+img.grid{
+    width: 8rem;
+    background-color: white;
+    border: 1px inherit ;
+    border-radius: 100rem;
+    padding: 2rem;
+
+}
+
+div.label{
+    background-color: white;
+    border: 0.001 inherit ;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 11rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+div.borda{
+    border-radius: 100rem;
+    background: linear-gradient(to left, #008CFF, #00FF8C);
+    width: 12rem;
+    padding: 1rem;
+    margin: auto;
+    height: 12rem;
+}
+
+div#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+    width: 50rem;
+    margin: 3rem;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div#abas{
+    display:flex ;
+    justify-content: center;
+}
+
+div.borda:hover{
+    transform: scale(90%);
+}
